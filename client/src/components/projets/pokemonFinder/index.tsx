@@ -7,7 +7,7 @@ export default function PokemonFinder() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/projects')
+        fetch('http://localhost:4000/projects')
             .then(response => response.json())
             .then(data => setData(data))
     }, []);

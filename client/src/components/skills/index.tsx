@@ -89,7 +89,7 @@ export default function Skills() {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/skills')
+        fetch('http://localhost:4000/skills')
             .then(response => response.json())
             .then(data => setData(data))
     }, []);

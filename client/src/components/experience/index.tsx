@@ -6,7 +6,7 @@ export default function Experience() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:5000/experiences')
+        fetch('http://localhost:4000/experiences')
             .then(response => response.json())
             .then(data => setData(data))
     }, []);

@@ -8,7 +8,7 @@ export default function Formations() {
 
 
     useEffect(() => {
-        fetch('http://localhost:5000/formations')
+        fetch('http://localhost:4000/formations')
             .then(response => response.json())
             .then(data => setData(data))
     }, []);
