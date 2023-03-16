@@ -3,10 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "engines": {
+    "node": "18.14.2"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app",
-    "dev": "nodemon ./app.js localhost 5000",
+    "start": "node app.js",
     "build": "npm run start"
   },
   "keywords": [],
